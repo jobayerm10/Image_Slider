@@ -1,4 +1,4 @@
-h1{
+h1 {
     color: red;
 }
 
@@ -17,7 +17,10 @@ h1{
     border-radius: 10px;
     border: 2px solid white;
     transition: all ease-in-out 0.5s;
+    flex-shrink: 0; /* Prevent images from shrinking */
 }
+
 .container img:hover {
     width: 25%;
+    gap: 15px; /* Adjust gap when hovering */
 }
